@@ -1,6 +1,4 @@
-/**********************/
 /**Global parameters***/
-/**********************/
 
 * {
   box-sizing: border-box;
@@ -13,9 +11,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-/**********************/
 /********Headers*******/
-/**********************/
 
 .navbar {
   display: flex;
@@ -50,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 16px;
+  font-weight: 400;
   padding: 0 40px 0 40px;
   text-align: center;
   text-decoration: none;
@@ -58,6 +55,79 @@ body {
 }
 
 .navbar li a:hover {
+  font-weight: 500;
   color: #0065fc;
   border-top: 3px solid #0065fc;
+}
+
+/********Search h1 p*******/
+main h1 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 5px 0;
+}
+
+#sectionSearch {
+  margin: 0 25px 0 25px;
+}
+
+#sectionSearch p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 8px 0 20px 0;
+}
+
+/******Search******/
+.divSearch img#mapmarker {
+  display: inline-block;
+  width: 50px;
+  height: 48px;
+  padding: 14px 17px 14px 17px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px 0 0 15px;
+}
+
+/******* Search : Form ******/
+form {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+input[type="search"] {
+  height: 48px;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 25px 0 15px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input[type="search"]::placeholder {
+  color: black;
+  font-weight: 700;
+}
+
+form button {
+  width: 132px;
+  height: 50px;
+  background-color: #0065fc;
+  border: 1px solid #0065fc;
+  border-radius: 0 15px 15px 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+form button:hover {
+  cursor: pointer;
 }
