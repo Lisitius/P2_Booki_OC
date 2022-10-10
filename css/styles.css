@@ -131,3 +131,104 @@ form button {
 form button:hover {
   cursor: pointer;
 }
+
+/******* Filters ******/
+
+#divFilters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 31px 0 0px 0;
+}
+
+#divFilters #titleFilter {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 32px 0 0;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+
+.oneFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 50px;
+  box-sizing: border-box;
+  padding: 0 10px 0 15px;
+  margin: 0 50px 0 0;
+  border: black 2px solid;
+  border-color: #d9d9d9;
+  border-radius: 100px;
+}
+
+.oneFilter i {
+  display: flex;
+  color: #0065fc;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#divFilters .textFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 8px 15px 0 5px;
+}
+
+#dog {
+  padding-bottom: 3px;
+}
+#icon {
+  padding-bottom: 1px;
+}
+
+.oneFilter:hover,
+.oneFilter:active {
+  background-color: #deebff;
+  cursor: pointer;
+}
+
+.oneFilter:hover i,
+.oneFilter:active i {
+  background-color: #deebff;
+  cursor: pointer;
+}
+
+/******* Filter : Info ******/
+.info {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 25px 0;
+}
+
+.info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0 0 12px;
+}
+
+.info i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 100%;
+  padding: 5px 10px 5px 10px;
+  color: #0065fc;
+}
