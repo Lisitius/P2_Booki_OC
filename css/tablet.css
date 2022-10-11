@@ -1,0 +1,98 @@
+body {
+  max-width: 1000px;
+  margin: 0;
+}
+
+/***** Navbar *****/
+.navbar {
+  margin: 0 25px 0 50px;
+}
+
+/***** Search ******/
+#sectionSearch {
+  margin: 0 25px 0 50x;
+}
+
+/***** Filters *****/
+
+#divFilters {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.oneFilter {
+  margin: 0 10px 0 0;
+}
+
+/**** Accomodation Marseille ****/
+
+#accomodations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accomodationMarseille {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right: 0;
+}
+
+/**** Popular Accomodations ****/
+.popular {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.cardsPopularAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 0 40px;
+}
+
+.cardPop {
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/****** Activity *****/
+#activity {
+  margin: 60px 0 0 15px;
+  padding: 0;
+}
+
+#activity h2 {
+  margin-left: 52px;
+}
+
+.activityList {
+  height: 80%;
+  width: 182px;
+  padding-left: 30px;
+}
+
+.activityList img {
+  object-fit: cover;
+  width: 182px;
+  height: 211px;
+}
+
+.port,
+.fort,
+.calanques {
+  margin-right: 50px;
+}
+
+/***** footer ******/
+footer {
+  margin: 45px 10px 0 40px;
+  max-width: 880px;
+  padding: 35px 192px 35px 30px;
+}
