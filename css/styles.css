@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  margin: 0 25px 0 25px;
+  margin: 0 25px 0 55px;
 }
 
 #logobooki {
@@ -69,7 +69,7 @@ main h1 {
 }
 
 #sectionSearch {
-  margin: 0 25px 0 25px;
+  margin: 0 25px 0 55px;
 }
 
 #sectionSearch p {
@@ -138,7 +138,7 @@ form button:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 31px 0 0px 0;
+  margin: 31px 0 0 7px;
 }
 
 #divFilters #titleFilter {
@@ -213,7 +213,7 @@ form button:hover {
 .info {
   display: flex;
   align-items: center;
-  margin: 18px 0 25px 0;
+  margin: 18px 0 18px 3px;
 }
 
 .info p {
@@ -232,3 +232,115 @@ form button:hover {
   padding: 5px 10px 5px 10px;
   color: #0065fc;
 }
+
+/******* Accomodation ******/
+main h2 {
+  font-size: 22px;
+  font-weight: 700px;
+  font-style: normal;
+  margin: 42px 0 0 40px;
+}
+
+.accomodations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 40px 0 50px;
+}
+
+.accomodations button {
+  display: flex;
+  width: 107px;
+  color: black;
+  font-weight: 700;
+  background: none;
+  text-decoration: none;
+  border: none;
+  margin: 30px 0px 30px 30px;
+}
+
+.accomodations:hover {
+  cursor: pointer;
+}
+
+/******* Card Accomodations******/
+.accomodationMarseille {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+  margin-right: 40px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  width: 30%;
+  height: 199px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.cardImage {
+  display: flex;
+  overflow: hidden;
+  max-height: 120px;
+  margin: 5px;
+  border-radius: 20px 20px 0 0;
+}
+
+.cardImage img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+}
+
+.cardBody p {
+  margin: 2px 0 2px 0;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.cardPrice {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cardStars {
+  display: flex;
+  margin: 2px 0 4px 0;
+}
+
+.fa-star {
+  color: #0065fc;
+}
+/*******Card Popular********/
