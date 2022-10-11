@@ -242,14 +242,14 @@ form button:hover {
   margin: 42px 0 0 40px;
 }
 
-.accomodations {
+#accomodations {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 40px 0 50px;
 }
 
-.accomodations button {
+#accomodations button {
   display: flex;
   width: 107px;
   color: black;
@@ -260,7 +260,7 @@ form button:hover {
   margin: 30px 0px 30px 33px;
 }
 
-.accomodations:hover {
+#accomodations:hover {
   cursor: pointer;
 }
 
@@ -440,4 +440,74 @@ form button:hover {
 
 .cardStarsPop i {
   margin-bottom: 12px;
+}
+
+/****** Activités ******/
+#activity {
+  margin: 60px 0 0 10px;
+  padding: 0 3%;
+  max-width: 1339px;
+}
+
+#activity a {
+  text-decoration: none;
+}
+
+.activityList {
+  display: flex;
+  justify-content: space-between;
+  height: 445px;
+}
+
+.port,
+.fort,
+.calanques {
+  margin-right: 30px;
+}
+
+.activityList img {
+  object-fit: cover;
+  width: 302px;
+  height: 389px;
+}
+
+.activityCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.activity h3 {
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 14px;
+}
+
+/****** Footer ******/
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 348px 35px 30px;
+  background-color: #f2f2f2;
+  margin: 45px 30px 0 48px;
+}
+
+.titleFoot {
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer li {
+  padding: 10px 0 5px 10px;
 }
