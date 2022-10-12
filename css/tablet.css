@@ -13,6 +13,10 @@ body {
   margin: 0 25px 0 50x;
 }
 
+form button {
+  font-size: 18px;
+}
+
 /***** Filters *****/
 
 #divFilters {
@@ -69,13 +73,14 @@ body {
 }
 
 #activity h2 {
-  margin-left: 52px;
+  margin-left: 40px;
 }
 
 .activityList {
   height: 80%;
   width: 182px;
   padding-left: 30px;
+  margin-top: 40px;
 }
 
 .activityList img {
