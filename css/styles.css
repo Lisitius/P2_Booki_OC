@@ -121,6 +121,7 @@ input[type="search"]::placeholder {
 form button {
   width: 132px;
   height: 50px;
+  font-size: 18px;
   background-color: #0065fc;
   border: 1px solid #0065fc;
   border-radius: 0 15px 15px 0;
@@ -132,6 +133,9 @@ form button:hover {
   cursor: pointer;
 }
 
+.divSearch img#mgSearch {
+  display: none;
+}
 /******* Filters ******/
 
 #divFilters {
@@ -160,7 +164,6 @@ form button:hover {
 .oneFilter {
   display: flex;
   align-items: center;
-  justify-content: center;
   max-height: 50px;
   box-sizing: border-box;
   padding: 0 10px 0 15px;
@@ -184,7 +187,6 @@ form button:hover {
 #divFilters .textFilter {
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 17px;
   font-weight: 700;
   padding: 8px 15px 0 5px;
@@ -289,6 +291,7 @@ form button:hover {
   height: 199px;
   background-color: #fff;
   border-radius: 20px;
+  box-shadow: 0px 5px 10px rgb(215, 215, 215);
   margin-top: 25px;
   transition: all 0.3s ease-in-out;
 }
@@ -341,8 +344,12 @@ form button:hover {
   margin: 2px 0 4px 0;
 }
 
-.fa-star {
+.miniStar i {
   color: #0065fc;
+}
+
+.miniStarGrey i {
+  color: #f2f2f2;
 }
 /*******Popular********/
 .popular {
@@ -383,6 +390,7 @@ form button:hover {
   margin-top: 30px;
   background-color: #fff;
   border-radius: 20px;
+  box-shadow: 0px 5px 10px rgb(215, 215, 215);
   transition: all 0.3s ease-in-out;
 }
 
@@ -453,6 +461,11 @@ form button:hover {
   text-decoration: none;
 }
 
+#activity h2 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
 .activityList {
   display: flex;
   justify-content: space-between;
@@ -476,13 +489,12 @@ form button:hover {
   flex-direction: column;
   height: 100%;
   border-radius: 20px;
+  box-shadow: 0px 5px 10px rgb(215, 215, 215);
   overflow: hidden;
 }
 
-.activity h3 {
-  font-weight: 700;
-  font-size: 16px;
-  padding-left: 14px;
+.activityCard h3 {
+  padding-left: 19px;
 }
 
 /****** Footer ******/
