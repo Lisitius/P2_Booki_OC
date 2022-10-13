@@ -190,7 +190,7 @@ form button:hover {
 #dog {
   padding-bottom: 3px;
 }
-#icon {
+.icon {
   padding-bottom: 1px;
 }
 
@@ -265,7 +265,7 @@ form button:hover {
 
 .accomodationMarseille h2 {
   font-size: 22px;
-  font-weight: 700px;
+  font-weight: 700;
   font-style: normal;
   margin: 42px 0 25px 40px;
 }
