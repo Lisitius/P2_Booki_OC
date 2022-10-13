@@ -10,7 +10,9 @@ body {
 
 /***** Search ******/
 #sectionSearch {
-  margin: 0 25px 0 50x;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 20px;
 }
 
 form button {
