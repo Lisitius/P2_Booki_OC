@@ -1,5 +1,11 @@
 body {
   max-width: 1000px;
+  margin: 0 72px 0 72px;
+}
+
+header,
+main,
+footer {
   margin: 0;
 }
 
@@ -28,11 +34,11 @@ form button {
 
 #filters {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .oneFilter {
-  margin: 0 10px 0 0;
+  margin-top: 10px;
 }
 
 /**** Accomodation Marseille ****/
@@ -75,14 +81,17 @@ form button {
 }
 
 #activity h2 {
-  margin-left: 40px;
+  margin-left: 10px;
+}
+
+#activity a {
+  max-width: 182px;
+  font-size: 14px;
 }
 
 .activityList {
-  height: 80%;
-  width: 182px;
-  padding-left: 30px;
   margin-top: 40px;
+  padding: 0 10px 0 10px;
 }
 
 .activityList img {
@@ -91,15 +100,8 @@ form button {
   height: 211px;
 }
 
-.port,
-.fort,
-.calanques {
-  margin-right: 50px;
-}
-
 /***** footer ******/
 footer {
-  margin: 45px 10px 0 40px;
-  max-width: 880px;
+  margin-top: 69px;
   padding: 35px 192px 35px 30px;
 }
